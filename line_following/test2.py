@@ -1,3 +1,5 @@
+# finding centre of mass and then creating the arrow
+
 import cv2
 import numpy as np
 import math

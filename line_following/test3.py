@@ -1,7 +1,8 @@
+# using all the mid points between two y coordinates, then creating regression line of those mid points
+
 import cv2
 import numpy as np
 import math
-import matplotlib.pyplot as plt
 
 cap = cv2.VideoCapture(r'C:\Users\Theodore Regimon\PycharmProjects\pythonProject\A Line Following Algorithm\cropLineSample.mp4')
 kernel = np.ones((5,5),np.uint8)

@@ -1,3 +1,5 @@
+# using 2 mid points from the edges
+
 import cv2
 import numpy as np
 import math
@@ -107,7 +109,7 @@ while True:
     cv2.imshow("Video", imgOg)
     cv2.imshow("canny", contimg)
     output_video.write(imgOg)
-    if cv2.waitKey(twhap)&0xFF == ord(' '):
+    if cv2.waitKey(tp)&0xFF == ord(' '):
         break
     iter=iter+1
 cap.release()
